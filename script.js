@@ -24,7 +24,6 @@ inc.addEventListener('click',()=>{
         errorAppended = false;
     }
     clrpressed = false;
-    console.log(counting)
 })
 
 
