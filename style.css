@@ -61,7 +61,7 @@ section > .con{
 @media screen and (max-width: 600px) {
     section{
         position: relative;
-        top: 200px;
+        top: 185px;
     }
    .all-btn{
         display: flex;
