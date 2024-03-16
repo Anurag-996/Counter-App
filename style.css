@@ -57,11 +57,14 @@ section > .con{
     font-size: 17px;
 }
 
+#clear{
+    display: none;
+}
 
 @media screen and (max-width: 600px) {
     section{
         position: relative;
-        top: 185px;
+        top: 175px;
     }
    .all-btn{
         display: flex;

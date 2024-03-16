@@ -24,11 +24,15 @@ inc.addEventListener('click',()=>{
         errorAppended = false;
     }
     clrpressed = false;
+    console.log(counting)
 })
 
 
 
 dec.addEventListener('click',()=>{
+    if(counting==1){
+        clear.style.display = 'none';
+    }
     if(counting<=0 && !errorAppended){
         const error = document.createElement('p');
         error.className = 'error';
@@ -43,8 +47,6 @@ dec.addEventListener('click',()=>{
         counting--;
         content.innerText= counting;
     }
-
-    if(errorAppended && clrpressed) clear.style.display = 'inline';
 
     clrpressed = false;
 })
