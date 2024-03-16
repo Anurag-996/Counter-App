@@ -68,6 +68,10 @@ section > .con{
         align-items: center;
         justify-content: center;
    }
+
+   button{
+        border-radius: 0.2rem;
+   }
 }
 
 
